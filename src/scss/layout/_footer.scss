@@ -1,1 +1,31 @@
+.footer {
+  height: 465px;
+  background-color: #304268;
+  color: #ffffff;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto";
+}
 
+.nav-list-1 {
+  margin-top: 60px;
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+.nav-list-2 {
+  text-align: center;
+  list-style: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link-articles .link-books .link-events .link-reasons .link-tips {
+  text-decoration: none;
+}
