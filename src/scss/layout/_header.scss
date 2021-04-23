@@ -3,7 +3,7 @@
 }
 .header {
   background: url(../images/cover.jpg);
-  height: 568px;
+  height: 800px;
   width: 100vw;
   background-size: cover;
   background-position-x: center;
@@ -13,6 +13,15 @@
   align-items: center;
   color: #ffffff;
 }
+.menu {
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  text-align: center;
+  line-height: 3;
+  position: fixed;
+  transform: translate(-165px, -377px);
+}
 .header-title {
   width: 290px;
   text-transform: uppercase;
@@ -21,7 +30,7 @@
   line-height: 1.31;
   font-family: "RobotoSlab";
   font-weight: 200;
-  margin: 130px 15px 0 15px;
+  margin: 400px 15px 0 15px;
 }
 .header-subtitle {
   text-align: center;
@@ -30,7 +39,11 @@
   font-weight: lighter;
 }
 .scroll-down {
+  width: 55px;
+  height: 55px;
+  margin-top: 60px;
   background-color: #ffffff;
-
-  /*background: url(../images/ico-scroll-down.svg);*/
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4;
 }

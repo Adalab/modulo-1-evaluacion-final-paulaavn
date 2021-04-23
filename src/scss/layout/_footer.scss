@@ -3,29 +3,93 @@
   background-color: #304268;
   color: #ffffff;
 }
+.ico-arrow {
+  background-color: #ffffff;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 4;
+  position: absolute;
+  transform: translate(0px, -30px);
+}
 .footer-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Roboto";
+  font-size: 16px;
+  list-style: none;
+  text-align: center;
+  line-height: 1.88;
 }
-
 .nav-list-1 {
   margin-top: 60px;
   list-style: none;
-  font-size: 16px;
   text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
 }
 .nav-list-2 {
-  text-align: center;
+  margin-top: 30px;
   list-style: none;
-  font-size: 16px;
   text-transform: uppercase;
-  text-decoration: none;
+}
+.copy {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 2.14;
+}
+.we {
+  font-size: 14px;
+}
+.love {
+  height: 12px;
 }
 
-.link-articles .link-books .link-events .link-reasons .link-tips {
+.link-articles:link,
+.link-articles:visited,
+.link-articles:active {
   text-decoration: none;
+  color: #ffffff;
+}
+.link-articles:hover {
+  color: #f26002;
+}
+
+.link-books:link,
+.link-books:visited,
+.link-books:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-books:hover {
+  color: #f26002;
+}
+.link-events:link,
+.link-events:visited,
+.link-events:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-events:hover {
+  color: #f26002;
+}
+
+.link-reasons:link,
+.link-reasons:visited,
+.link-reasons:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-reasons:hover {
+  color: #f26002;
+}
+
+.link-tips:link,
+.link-tips:visited,
+.link-tips:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-tips:hover {
+  color: #f26002;
 }

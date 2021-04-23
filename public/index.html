@@ -12,13 +12,17 @@
 
 <body>
   <div class="page">
-    <header class="header">
-        <div class="box-container"></div>
-        Menu hamburguesa
+    <header id="header" class="header">
+        <div class="box-container">
+
+        </div>
+        <div class=" menu"><a class="menu-link" href="https://adalab.es/" target="_blank"><img
+                    src="./assets/images/ico-menu.svg"></a></div>
         <h1 class="header-title">anonimous Proxy</h1>
         <h2 class="header-subtitle">In hac habitasse platea dictumst.
         </h2>
-        <div class="scroll-down"> <img src="./images/ico-scroll-down.svg" /></div>
+        <div class="scroll-down"> <a href="#reasons"><img src="./assets/images/ico-scroll-down.svg" /></a>
+        </div>
         </div>
     </header>
     <main>
@@ -33,7 +37,7 @@
                         nec lectus. Vivamus
                         semper sodales rutrum.</p>
                     <div class="botton-go">
-                        <a href="https://adalab.es/" class="go">go</a>
+                        <a href="https://adalab.es/" class="go" target="_blank">go</a>
                     </div>
                 </article>
             </div>
@@ -55,12 +59,13 @@
                         <p>Mauris mattis urna quis lorem molestie.</p>
                     </article>
 
-                    <article class="reasons-article">
+                    <article id="reasons" class="reasons-article">
                         <h4 class="rt">Morbi dictumst</h4>
                         <p>Aliquam in dolor et dolor tincidunt.</p>
                     </article>
 
-                    <div class="more-reasons-botton"><a href="https://adalab.es/" class="more-reasons-link">More reasons</a>
+                    <div class="more-reasons-botton"><a href="https://adalab.es/" class="more-reasons-link"
+                            target="_blank">More reasons</a>
                     </div>
                 </div>
             </div>
@@ -69,25 +74,26 @@
 
     <footer class="footer">
         <div class="box-container footer-nav">
-            <div>Flecha</div>
-            <nav class="nav-links-1">
+            <div class="ico-arrow"><a href="#header"><img src="./assets/images/ico-arrow.svg" /></a></div>
+            <nav class=" nav-links-1">
                 <ul class="nav-list-1">
-                    <li> <a href="https://adalab.es/" class="link-articles">articles </a></li>
-                    <li><a href="https://adalab.es/" class="link-books">books</a></li>
-                    <li> <a href="https://adalab.es/" class="link-events">events</a></li>
-                    <li><a href="https://adalab.es/" class="link-reasons">reasons</a></li>
-                    <li> <a href="https://adalab.es/" class="link-tips">Tips </a></li>
+                    <li> <a href="https://adalab.es/" class="link-articles" target="_blank">articles </a></li>
+                    <li><a href="https://adalab.es/" class="link-books" target="_blank">books</a></li>
+                    <li> <a href="https://adalab.es/" class="link-events" target="_blank">events</a></li>
+                    <li><a href="https://adalab.es/" class="link-reasons" target="_blank">reasons</a></li>
+                    <li> <a href="https://adalab.es/" class="link-tips" target="_blank">Tips </a></li>
                 </ul>
             </nav>
             <nav class="nav-links-2">
                 <ul class="nav-list-2">
-                    <li> twiter</li>
-                    <li>instagram</li>
-                    <li> mastodon.social</li>
+                    <li><a href="https://adalab.es/" class="link-twiter" target="_blank"></a> twiter</li>
+                    <li><a href="https://adalab.es/" class="link-instagram" target="_blank"></a>instagram</li>
+                    <li> <a href="https://adalab.es/" class="link-mastodon.social" target="_blank"></a>mastodon.social</li>
                 </ul>
             </nav>
-            <span>&copy2021</span>
-            <span>we components</span>
+            <span class="copy">&copy2021</span>
+            <span class="we">we <img class="love" src="./assets/images/heart.png" alt="love" />components</span>
+
         </div>
     </footer>
   </div>
