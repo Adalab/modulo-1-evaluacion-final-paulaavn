@@ -29,6 +29,7 @@
   color: #4a4a4a; }
 
 .botton-go {
+  margin-top: 30px;
   text-align: center;
   height: 45px;
   width: 76px;
@@ -41,10 +42,17 @@
 .go {
   color: #f26002;
   text-transform: capitalize;
-  font-size: 20px; }
+  font-size: 20px;
+  text-decoration: none; }
+
+.reasons {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 125px 125px 125px 125px 125px; }
 
 .box-container {
-  margin: 0 15px; }
+  margin: 0 15px;
+  background-color: aqua; }
 
 .header {
   background: url(../images/cover.jpg);

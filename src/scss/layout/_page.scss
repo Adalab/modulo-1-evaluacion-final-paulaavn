@@ -25,6 +25,7 @@
   color: #4a4a4a;
 }
 .botton-go {
+  margin-top: 30px;
   text-align: center;
   height: 45px;
   width: 76px;
@@ -38,4 +39,11 @@
   color: #f26002;
   text-transform: capitalize;
   font-size: 20px;
+  text-decoration: none;
+}
+
+.reasons {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 125px 125px 125px 125px 125px;
 }
