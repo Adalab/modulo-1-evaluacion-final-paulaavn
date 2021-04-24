@@ -1,18 +1,6 @@
 .box-container {
   margin: 0 15px;
 }
-.header {
-  background: url(../images/cover.jpg);
-  height: 800px;
-  width: 100vw;
-  background-size: cover;
-  background-position-x: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-}
 .menu {
   width: 44px;
   height: 44px;
@@ -20,8 +8,25 @@
   text-align: center;
   line-height: 3;
   position: fixed;
-  transform: translate(-165px, -377px);
+  top: 0%;
+  left: 0%;
 }
+.header {
+  background: url(../images/cover.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+
+  @media all and(min-width:768px) {
+    height: 768px;
+  }
+}
+
 .header-title {
   width: 290px;
   text-transform: uppercase;
@@ -31,12 +36,24 @@
   font-family: "RobotoSlab";
   font-weight: 200;
   margin: 400px 15px 0 15px;
+  @media all and(min-width:768px) {
+    width: 690px;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 330px;
+  }
+  @media all and(min-width:1280px) {
+    font-size: 100px;
+  }
 }
 .header-subtitle {
   text-align: center;
   font-size: 12px;
   font-family: "Roboto";
   font-weight: lighter;
+  @media all and(min-width:768px) {
+    font-size: 24px;
+  }
 }
 .scroll-down {
   width: 55px;
@@ -45,5 +62,5 @@
   background-color: #ffffff;
   border-radius: 50%;
   text-align: center;
-  line-height: 4;
+  line-height: 3.5;
 }
