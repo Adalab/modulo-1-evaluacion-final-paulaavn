@@ -9,7 +9,7 @@ Pasos a seguir para arrancar el proyecto:
 1.Clonar el repositorio
 (https://github.com/Adalab/modulo-1-evaluacion-final-paulaavn.git)
 
-2.Abre una terminal e instala las dependencias locales ejecutando el siguiente comando:
+2.Abrir una terminal e instalar las dependencias locales ejecutando el siguiente comando:
 
 npm install
 
