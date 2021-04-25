@@ -46,12 +46,19 @@
   line-height: 2;
   border: solid 0.19rem $links-color;
   border-radius: 30%;
+  transition: transform 3s color 2s;
   @media all and(min-width:768px) {
     width: 5.69rem;
   }
   @media all and(min-width:1200px) {
     width: 10rem;
   }
+}
+.botton-go:hover {
+  cursor: pointer;
+  transform: scale(2);
+  margin-left: 50px;
+  border: solid 0.19rem $background-color-medium;
 }
 .go {
   color: $links-color;
@@ -134,6 +141,7 @@
   background-color: $links-color;
   border-radius: 1.4rem;
   line-height: 2.8;
+  transition: transform 3s color 2s;
   @media all and(min-width:768px) {
     grid-column: span 3;
     width: 13.13rem;
@@ -142,8 +150,19 @@
     width: 15.9rem;
   }
 }
+.more-reasons-botton:hover {
+  cursor: pointer;
+  background-color: $background-color-medium;
+  transform: scale(1.5);
+  border: solid 0.19rem $links-color;
+  line-height: 2.5;
+}
 .more-reasons-link {
   text-decoration: none;
   color: $font-color;
   font-family: $font-main;
+  transition: transform 5s color 2s;
+}
+.more-reasons-link:hover {
+  color: $links-color;
 }
