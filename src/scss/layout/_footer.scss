@@ -1,161 +1,160 @@
 .footer {
-  height: 465px;
-  background-color: #304268;
-  color: #ffffff;
+  height: 29rem;
+  background-color: $background-color-dark;
+  color: $font-color;
+  @media all and (min-width: 768px) {
+    height: 15rem;
+  }
 }
 .ico-arrow {
-  background-color: #ffffff;
-  width: 55px;
-  height: 55px;
+  background-color: $font-color;
+  width: 3.44rem;
+  height: 3.44rem;
   border-radius: 50%;
   text-align: center;
   line-height: 4;
   position: absolute;
-  transform: translate(0, -30px);
+  transform: translate(0, -1.88rem);
+  @media all and (min-width: 768px) {
+    position: absolute;
+    margin-left: -13.75rem;
+    transform: translate(0, -6.25rem);
+  }
 }
 .footer-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Roboto";
-  font-size: 16px;
+  font-family: $font-main;
   list-style: none;
   text-align: center;
   line-height: 1.88;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15.6rem;
+  }
+}
+@media all and (min-width: 768px) {
+  .nav-links {
+    margin-left: -5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 .nav-list-1 {
-  margin-top: 60px;
+  margin-top: 3.75rem;
   list-style: none;
   text-transform: uppercase;
+  @media all and (min-width: 768px) {
+    margin-top: 3.12rem;
+    text-align: justify;
+  }
 }
 .nav-list-2 {
-  margin-top: 30px;
+  margin-top: 1.88rem;
   list-style: none;
   text-transform: uppercase;
+  @media all and (min-width: 768px) {
+    margin-top: -1.25rem;
+    margin-left: 9.4rem;
+    text-align: justify;
+  }
 }
 .copy {
-  margin-top: 30px;
-  font-size: 14px;
+  margin-top: 1.88rem;
+  font-size: 0.88rem;
   line-height: 2.14;
+  @media all and (min-width: 768px) {
+    position: absolute;
+    transform: translate(-26.2rem, -3.125rem);
+  }
 }
 .we {
-  font-size: 14px;
+  font-size: 0.88rem;
+  @media all and (min-width: 768px) {
+    position: absolute;
+    transform: translate(-24rem, -0.6rem);
+  }
 }
 .love {
-  height: 12px;
+  height: 0.75rem;
 }
 
 .link-articles:link,
 .link-articles:visited,
 .link-articles:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-articles:hover {
-  color: #f26002;
+  color: $links-color;
 }
 
 .link-books:link,
 .link-books:visited,
 .link-books:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-books:hover {
-  color: #f26002;
+  color: $links-color;
 }
 .link-events:link,
 .link-events:visited,
 .link-events:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-events:hover {
-  color: #f26002;
+  color: $links-color;
 }
 
 .link-reasons:link,
 .link-reasons:visited,
 .link-reasons:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-reasons:hover {
-  color: #f26002;
+  color: $links-color;
 }
 
 .link-tips:link,
 .link-tips:visited,
 .link-tips:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-tips:hover {
-  color: #f26002;
+  color: $links-color;
 }
 .link-twiter:link,
 .link-twiter:visited,
 .link-twiter:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-twiter:hover {
-  color: #f26002;
+  color: $links-color;
 }
 .link-instagram:link,
 .link-instagram:visited,
 .link-instagram:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-instagram:hover {
-  color: #f26002;
+  color: $links-color;
 }
 .link-mastodon-social:link,
 .link-mastodon-social:visited,
 .link-mastodon-social:active {
   text-decoration: none;
-  color: #ffffff;
+  color: $font-color;
 }
 .link-mastodon-social:hover {
-  color: #f26002;
-}
-@media all and (min-width: 768px) {
-  .footer {
-    height: 240px;
-  }
-  .footer-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 250px;
-  }
-  .ico-arrow {
-    position: absolute;
-    margin-left: -220px;
-    transform: translate(0, -100px);
-  }
-  .nav-links {
-    margin-left: -80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .nav-list-1 {
-    margin-top: 50px;
-    text-align: justify;
-  }
-  .nav-list-2 {
-    margin-top: -20px;
-    margin-left: 150px;
-    text-align: justify;
-  }
-  .copy {
-    position: absolute;
-    transform: translate(-420px, -50px);
-  }
-  .we {
-    position: absolute;
-    transform: translate(-385px, -10px);
-  }
+  color: $links-color;
 }
