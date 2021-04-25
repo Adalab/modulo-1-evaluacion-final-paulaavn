@@ -14,13 +14,19 @@
   text-align: center;
   line-height: 4;
   position: absolute;
-  transform: translate(0, -1.88rem);
+  transform: translateY(-1.56rem);
+  animation: 4s Slidein infinite alternate;
   @media all and (min-width: 768px) {
     position: absolute;
     margin-left: -13.75rem;
     transform: translate(0, -6.25rem);
+    animation: 8s Slidein infinite alternate;
   }
 }
+.ico-arrow:hover {
+  animation-play-state: paused;
+}
+
 .footer-nav {
   display: flex;
   flex-direction: column;
@@ -157,4 +163,15 @@
 }
 .link-mastodon-social:hover {
   color: $links-color;
+}
+@keyframes Slidein {
+  from {
+    margin-left: 100%;
+  }
+  50% {
+    margin-left: 0%;
+  }
+  to {
+    margin-right: 100%;
+  }
 }

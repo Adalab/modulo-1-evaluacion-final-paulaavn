@@ -265,12 +265,20 @@
   text-align: center;
   line-height: 4;
   position: absolute;
-  transform: translate(0, -1.88rem); }
+  transform: translateY(-1.56rem);
+  -webkit-animation: 4s Slidein infinite alternate;
+  animation: 4s Slidein infinite alternate; }
   @media all and (min-width: 768px) {
     .ico-arrow {
       position: absolute;
       margin-left: -13.75rem;
-      transform: translate(0, -6.25rem); } }
+      transform: translate(0, -6.25rem);
+      -webkit-animation: 8s Slidein infinite alternate;
+      animation: 8s Slidein infinite alternate; } }
+
+.ico-arrow:hover {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused; }
 
 .footer-nav {
   display: flex;
@@ -403,5 +411,21 @@
 
 .link-mastodon-social:hover {
   color: #f26002; }
+
+@-webkit-keyframes Slidein {
+  from {
+    margin-left: 100%; }
+  50% {
+    margin-left: 0%; }
+  to {
+    margin-right: 100%; } }
+
+@keyframes Slidein {
+  from {
+    margin-left: 100%; }
+  50% {
+    margin-left: 0%; }
+  to {
+    margin-right: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
