@@ -17,5 +17,5 @@ npm install
 
 npm start
 
-Paula Albo
+Paula Albo //
 Abril 2021
