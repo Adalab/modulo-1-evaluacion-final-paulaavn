@@ -93,6 +93,33 @@
 .link-tips:hover {
   color: #f26002;
 }
+.link-twiter:link,
+.link-twiter:visited,
+.link-twiter:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-twiter:hover {
+  color: #f26002;
+}
+.link-instagram:link,
+.link-instagram:visited,
+.link-instagram:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-instagram:hover {
+  color: #f26002;
+}
+.link-mastodon-social:link,
+.link-mastodon-social:visited,
+.link-mastodon-social:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-mastodon-social:hover {
+  color: #f26002;
+}
 @media all and (min-width: 768px) {
   .footer {
     height: 240px;
