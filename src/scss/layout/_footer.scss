@@ -19,7 +19,7 @@
   @media all and (min-width: 768px) {
     position: absolute;
     margin-left: -220px;
-    transform: translate(0, -100rem);
+    transform: translate(0, -100px);
     animation: 8s Slidein infinite alternate;
   }
 }
@@ -75,7 +75,7 @@
   line-height: 2.14;
   @media all and (min-width: 768px) {
     position: absolute;
-    transform: translate(-420px, -50);
+    transform: translate(-420px, -50px);
   }
 }
 .we {
