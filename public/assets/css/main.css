@@ -4,20 +4,6 @@
   padding: 0;
   font-size: 16px; }
 
-.code {
-  font-size: 16px;
-  background: #d8d8d8;
-  padding: 0 5px;
-  border-radius: 5px; }
-
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff; }
-
-.link__github:hover {
-  background-color: #CCC;
-  color: #000; }
-
 .section-2 {
   background-color: #eff9ff;
   font-family: "Roboto", sans-serif; }
@@ -52,8 +38,7 @@
   @media all and (min-width: 768px) {
     .reasons-title {
       grid-column: span 3;
-      font-size: 1.88rem;
-      text-transform: capitalize; } }
+      font-size: 1.88rem; } }
   @media all and (min-width: 1200px) {
     .reasons-title {
       font-size: 2.25rem;
@@ -118,16 +103,6 @@
 .box-container {
   margin: 0 0.93rem; }
 
-.menu {
-  width: 2.75rem;
-  height: 2.75rem;
-  background-color: #0271bc;
-  text-align: center;
-  line-height: 3;
-  position: fixed;
-  top: 0%;
-  left: 0%; }
-
 .header {
   background: url(../images/cover.jpg);
   height: 50rem;
@@ -141,6 +116,16 @@
   @media all and (min-width: 768px) {
     .header {
       height: 48rem; } }
+
+.menu {
+  width: 2.75rem;
+  height: 2.75rem;
+  background-color: #0271bc;
+  text-align: center;
+  line-height: 3;
+  position: fixed;
+  top: 0%;
+  left: 0%; }
 
 .header-title {
   width: 18.13rem;
@@ -412,18 +397,18 @@
 
 @-webkit-keyframes Slidein {
   from {
-    margin-left: 100%; }
+    margin-left: 40%; }
   50% {
     margin-left: 0%; }
   to {
-    margin-right: 100%; } }
+    margin-right: 80%; } }
 
 @keyframes Slidein {
   from {
-    margin-left: 100%; }
+    margin-left: 40%; }
   50% {
     margin-left: 0%; }
   to {
-    margin-right: 100%; } }
+    margin-right: 80%; } }
 
 /*# sourceMappingURL=main.css.map */
