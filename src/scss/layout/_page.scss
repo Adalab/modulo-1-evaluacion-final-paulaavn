@@ -3,16 +3,16 @@
   font-family: $font-main;
 }
 .reasons {
-  height: 39rem;
+  height: 624px;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 20px;
   @media all and(min-width:768px) {
-    margin: 0px 2.43rem 0 2.43rem;
-    height: 24.8rem;
+    margin: 0px 39px 0 39px;
+    height: 397px;
   }
   @media all and(min-width:1200px) {
-    margin: 0px 5.3rem 0 5.3rem;
-    height: 26.7rem;
+    margin: 0px 85px 0 85px;
+    height: 427px;
   }
 }
 .grid-container {
@@ -21,37 +21,37 @@
   grid-template-rows: 1fr 1fr 1fr;
   @media all and(min-width:768px) {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 6.25rem 12.31rem 6.25rem;
+    grid-template-rows: 100px 197px 100px;
   }
 }
 .reasons-title {
-  margin-top: 1.88rem;
-  font-size: 1.75rem;
+  margin-top: 30px;
+  font-size: 28px;
   text-transform: capitalize;
   font-family: $secondary-font;
   @media all and(min-width:768px) {
     grid-column: span 3;
-    font-size: 1.88rem;
+    font-size: 30px;
   }
   @media all and(min-width:1200px) {
-    font-size: 2.25rem;
-    margin-top: 3.75rem;
+    font-size: 36px;
+    margin-top: 60px;
   }
 }
 .reasons-article {
   margin: 0 auto;
-  margin-bottom: 3.13rem;
-  width: 11.5rem;
+  margin-bottom: 50px;
+  width: 184px;
   @media all and(min-width:768px) {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     width: 80%;
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.5;
   }
   @media all and(min-width:768px) {
-    margin-top: 3.44rem;
+    margin-top: 55px;
   }
 }
 .rt {
@@ -59,31 +59,31 @@
   font-family: $secondary-font;
   font-weight: bold;
   @media all and(min-width:768px) {
-    font-size: 1.63rem;
+    font-size: 26px;
   }
 }
 
 .more-reasons-botton {
-  width: 11.5rem;
-  height: 2.8rem;
+  width: 184px;
+  height: 45px;
   margin: 0 auto;
   background-color: $links-color;
-  border-radius: 1.4rem;
+  border-radius: 22.5;
   line-height: 2.8;
   transition: transform 3s color 2s;
   @media all and(min-width:768px) {
     grid-column: span 3;
-    width: 13.13rem;
+    width: 210px;
   }
   @media all and(min-width:768px) {
-    width: 15.9rem;
+    width: 254px;
   }
 }
 .more-reasons-botton:hover {
   cursor: pointer;
   background-color: $background-color-medium;
   transform: scale(1.5);
-  border: solid 0.19rem $links-color;
+  border: solid 3px $links-color;
   line-height: 2.5;
 }
 .more-reasons-link {

@@ -1,9 +1,9 @@
 .box-container {
-  margin: 0 0.93rem;
+  margin: 0 15px;
 }
 .header {
   background: url(../images/cover.jpg);
-  height: 50rem;
+  height: 800px;
   background-size: cover;
   background-position-x: center;
   display: flex;
@@ -12,12 +12,12 @@
   align-items: center;
   color: $font-color;
   @media all and(min-width:768px) {
-    height: 48rem;
+    height: 768px;
   }
 }
 .menu {
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 44px;
+  height: 44px;
   background-color: $menu-color;
   text-align: center;
   line-height: 3;
@@ -27,37 +27,37 @@
 }
 
 .header-title {
-  width: 18.13rem;
+  width: 290px;
   text-transform: uppercase;
-  font-size: 2.4rem;
+  font-size: 38px;
   text-align: center;
   line-height: 1.31;
   font-family: $secondary-font;
   font-weight: 200;
-  margin: 25rem 0.9rem 0 0.9rem;
+  margin: 400px 14px 0 14px;
   @media all and(min-width:768px) {
-    width: 43.1rem;
-    font-size: 5rem;
+    width: 690px;
+    font-size: 80px;
     font-weight: bold;
-    margin-top: 20.6rem;
+    margin-top: 330px;
   }
   @media all and(min-width:1280px) {
-    font-size: 6.25rem;
+    font-size: 100px;
   }
 }
 .header-subtitle {
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-family: $font-main;
   font-weight: lighter;
   @media all and(min-width:768px) {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
 }
 .scroll-down {
-  width: 3.44rem;
-  height: 3.44rem;
-  margin-top: 3.75rem;
+  width: 55px;
+  height: 55px;
+  margin-top: 60px;
   background-color: $font-color;
   border-radius: 50%;
   text-align: center;

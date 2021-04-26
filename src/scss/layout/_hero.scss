@@ -1,68 +1,68 @@
 .section-1 {
-  height: 23.5rem;
+  height: 376px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   font-family: $font-main;
   @media all and(min-width:768px) {
-    margin: 0px 2.43rem 0 2.43rem;
-    height: 20.6rem;
+    margin: 0px 39px 0 39px;
+    height: 329.6px;
   }
   @media all and(min-width:1200px) {
-    margin: 3.75rem 17.19rem;
-    height: 18.75rem;
+    margin: 60px 275px;
+    height: 300px;
   }
 }
 .win-art-subtitle {
-  margin-top: 1.88rem;
-  font-size: 0.88rem;
+  margin-top: 30px;
+  font-size: 14px;
   color: $background-color-light;
   @media all and(min-width:1200px) {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 .win-art-title {
   font-family: $secondary-font;
-  font-size: 1.88rem;
+  font-size: 30px;
   text-transform: capitalize;
   @media all and(min-width:768px) {
-    font-size: 2rem;
+    font-size: 32px;
   }
 }
 .p-article {
-  margin-top: 0.94rem;
-  font-size: 1.13rem;
+  margin-top: 15px;
+  font-size: 18px;
   line-height: 1.67;
   color: $text-second-color;
   @media all and(min-width:768px) {
-    font-size: 1.25rem;
+    font-size: 20px;
   }
 }
 .botton-go {
-  height: 2.81rem;
-  width: 4.75rem;
-  margin-top: 1.88rem;
+  height: 45px;
+  width: 76px;
+  margin-top: 30px;
   text-align: center;
   line-height: 2;
-  border: solid 0.19rem $links-color;
+  border: solid 3px $links-color;
   border-radius: 30%;
   transition: transform 3s color 2s;
   @media all and(min-width:768px) {
-    width: 5.69rem;
+    width: 91px;
   }
   @media all and(min-width:1200px) {
-    width: 10rem;
+    width: 160px;
   }
 }
 .botton-go:hover {
   cursor: pointer;
   transform: scale(2);
   margin-left: 50px;
-  border: solid 0.19rem $background-color-medium;
+  border: solid 3px $background-color-medium;
 }
 .go {
   color: $links-color;
   text-transform: capitalize;
-  font-size: 1.25rem;
+  font-size: 20px;
   text-decoration: none;
 }

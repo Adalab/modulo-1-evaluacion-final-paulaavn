@@ -1,25 +1,25 @@
 .footer {
-  height: 29rem;
+  height: 464px;
   background-color: $background-color-dark;
   color: $font-color;
   @media all and (min-width: 768px) {
-    height: 15rem;
+    height: 240px;
   }
 }
 .ico-arrow {
   background-color: $font-color;
-  width: 3.44rem;
-  height: 3.44rem;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   text-align: center;
   line-height: 4;
   position: absolute;
-  transform: translateY(-1.56rem);
+  transform: translateY(-25px);
   animation: 4s Slidein infinite alternate;
   @media all and (min-width: 768px) {
     position: absolute;
-    margin-left: -13.75rem;
-    transform: translate(0, -6.25rem);
+    margin-left: -220px;
+    transform: translate(0, -100rem);
     animation: 8s Slidein infinite alternate;
   }
 }
@@ -39,54 +39,54 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 15.6rem;
+    margin-left: 250px;
   }
 }
 @media all and (min-width: 768px) {
   .nav-links {
-    margin-left: -5rem;
+    margin-left: -80px;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 }
 .nav-list-1 {
-  margin-top: 3.75rem;
+  margin-top: 60px;
   list-style: none;
   text-transform: uppercase;
   @media all and (min-width: 768px) {
-    margin-top: 3.12rem;
+    margin-top: 50px;
     text-align: justify;
   }
 }
 .nav-list-2 {
-  margin-top: 1.88rem;
+  margin-top: 30px;
   list-style: none;
   text-transform: uppercase;
   @media all and (min-width: 768px) {
-    margin-top: -1.25rem;
-    margin-left: 9.4rem;
+    margin-top: -20px;
+    margin-left: 150px;
     text-align: justify;
   }
 }
 .copy {
-  margin-top: 1.88rem;
-  font-size: 0.88rem;
+  margin-top: 30px;
+  font-size: 14px;
   line-height: 2.14;
   @media all and (min-width: 768px) {
     position: absolute;
-    transform: translate(-26.2rem, -3.125rem);
+    transform: translate(-420px, -50);
   }
 }
 .we {
-  font-size: 0.88rem;
+  font-size: 14px;
   @media all and (min-width: 768px) {
     position: absolute;
-    transform: translate(-24rem, -0.6rem);
+    transform: translate(-384px, -9.6px);
   }
 }
 .love {
-  height: 0.75rem;
+  height: 12px;
 }
 
 .link-articles:link,
